@@ -9,11 +9,22 @@ body,html{
 }
 .container{
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
 }
 div.nav{
     display: grid;
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: auto 1fr auto auto;
     list-style-type: none;
     width: 100%;
+    background-color: antiquewhite;
+    box-shadow: 0 0px 1px 1px;
 }
+.nav>div{
+    padding: 5px;
+}
+.nav>div.active{
+    background-color: beige;
+}
+.nav>div:hover{
+    background-color: beige;
+}
+.text-center{text-align: center;}
