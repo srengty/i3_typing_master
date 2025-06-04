@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+div.nav{
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    list-style-type: none;
+    width: 100%;
+}
